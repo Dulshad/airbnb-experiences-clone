@@ -1,0 +1,15 @@
+.navbar-container {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+}
+
+.navbar-logo {
+    height: 1.625rem;
+    width: 5rem;
+    margin: 1.375rem 2rem 1.375rem;
+}
+
+.navbar-border {
+    box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.1);
+}
