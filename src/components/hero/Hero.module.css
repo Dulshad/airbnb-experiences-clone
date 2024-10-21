@@ -1,0 +1,28 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.75rem 3rem;
+}
+
+.hero-photo-grid {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero-title {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.hero-text {
+    margin-top: 0;
+}
+
+@media (max-width: 600px) {
+    .hero-container {
+        margin: 1rem 1.25rem;
+    }
+}
