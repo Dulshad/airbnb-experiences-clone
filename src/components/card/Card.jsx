@@ -16,10 +16,23 @@ Notes:
   currently are, so don't worry about the fact that you're hard-coding all
   this data into the component.
 */
+import katieZaferes from '../../images/katie-zaferes.png'
+import starIcon from '../../images/star.png'
+import styles from './Card.module.css'
 
 const Card = () => {
     return (
-        <h1>Replace this</h1>
+        <section className={styles['cards-container']}>
+            <div className={styles['card-container']}>
+                <img className={styles['card-img']} src={katieZaferes} alt="picture of katie zaferes in swim suit"/>
+                <div className={styles['card-rating']}>
+                    <img className={styles['card-rating-icon']} src={starIcon} alt="icon of star"/>
+                    <p>5.0 <span className={styles['card-light-text']}>(6) - USA</span></p>
+                </div>
+                <p>Life lessons with Katie Zaferes</p>
+                <p><span className={styles['card-bold-text']}>From $136 </span> / person</p>
+            </div>
+        </section>
     )
 }
 
