@@ -7,7 +7,14 @@ export default function App() {
         <>
             <Navbar />
             <Hero />
-            <Card />
+            <Card
+              img="./src/images/katie-zaferes.png"
+              rating="5.0"
+              reviewCount={6}
+              country="Netherlands"
+              title="Life Lessons with Katie Zaferes"
+              price={136}
+            />
         </>
     )
 }
