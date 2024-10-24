@@ -9,7 +9,7 @@ export default function App() {
         return (
             <Card
                 key={item.id}
-                img={`/src/images/${item.coverImg}`}
+                img={`/images/${item.coverImg}`}
                 rating={item.stats.rating}
                 reviewCount={item.stats.reviewCount}
                 location={item.location}
