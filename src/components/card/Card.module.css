@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     font-size: 0.75rem;
+    position: relative;
 }
 
 .card-img {
@@ -34,5 +35,15 @@ p {
 }
 
 .card-bold-text {
+    font-weight: bold;
+}
+
+.card-badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
     font-weight: bold;
 }
