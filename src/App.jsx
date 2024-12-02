@@ -5,21 +5,17 @@ import data from "./data.js"
 
 export default function App() {
 
-    const cards = data.map((item) => {
-        return (
-            <Card
-                key={item.id}
-                {...item}
-            />
-        )
-    })
-
     return (
         <>
             <Navbar/>
             <Hero/>
-            <section className='cards-container'>
-                {cards}
+            <section className='cards_container'>
+                {data.map((item) => (
+                    <Card
+                        key={item.id}
+                        {...item}
+                    />
+                ))}
             </section>
         </>
     )

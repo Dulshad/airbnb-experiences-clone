@@ -1,32 +1,32 @@
-.hero-container {
+.hero_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 1.75rem 3rem;
 }
 
-.hero-photo-grid {
+.hero_photo_grid {
     width: 100%;
     height: auto;
     max-width: 800px;
     margin: auto;
 }
 
-.hero-title {
+.hero_title {
     margin-bottom: 0.8rem;
     font-weight: 600;
     margin-left: auto;
     margin-right: auto;
 }
 
-.hero-text {
+.hero_text {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
 }
 
 @media (max-width: 600px) {
-    .hero-container {
+    .hero_container {
         margin: 1rem 1.25rem;
     }
 }

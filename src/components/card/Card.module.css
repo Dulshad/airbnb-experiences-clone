@@ -1,11 +1,11 @@
-.card-container {
+.card_container {
     display: flex;
     flex-direction: column;
     font-size: 0.75rem;
     position: relative;
 }
 
-.card-img {
+.card_img {
     width: 100%;
     height: auto;
     max-width: 176px;
@@ -14,13 +14,13 @@
     border-radius: 9px;
 }
 
-.card-rating {
+.card_rating {
     display: flex;
     align-items: center;
     padding-top: 4px;
 }
 
-.card-rating-icon {
+.card_rating_icon {
     height: 14px;
     width: 14px;
 }
@@ -30,15 +30,15 @@ p {
     padding-left: 2px;
 }
 
-.card-light-text {
+.card_light_text {
     color: #918E9B;
 }
 
-.card-bold-text {
+.card_bold_text {
     font-weight: bold;
 }
 
-.card-badge {
+.card_badge {
     position: absolute;
     top: 6px;
     left: 6px;
